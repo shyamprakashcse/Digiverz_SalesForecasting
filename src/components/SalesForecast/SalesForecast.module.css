@@ -1,0 +1,97 @@
+.sales{
+    font-family:'Times New Roman', Times, serif
+}
+
+.saleshead{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--green-100);
+}
+
+.saleshead button{
+  height:50px; 
+  margin:1%; 
+}
+
+.saleshead h3{
+  margin: 1%;
+}
+
+.salesheader{
+  background-color: var(--yellow-100); 
+  margin-bottom: 2%;
+}
+
+.saleimggrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 2%;
+  grid-column-gap:2% ;
+}
+
+.saleimggrid img{
+  width:450px; 
+  height:500px;
+  margin-bottom: 2%;
+  margin-left:2%; 
+  padding: 1%;
+  /* border:1px solid black; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.saleimggrid img:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.saleszoomhead{
+  margin-top:2%; 
+  background-color: var(--yellow-100);
+}
+
+.saleszoomdesc{
+  
+  background-color: inherit;
+}
+
+.saleszoomdiv{
+  margin:2%; 
+
+}
+
+.saleszoomdrop{
+  margin:2%; 
+  font-weight: bold;
+  font-size: large;
+  
+}
+
+.saleszoomcal{
+  margin:2%; 
+}
+
+.resamplinghead{
+  background-color: var(--red-100);
+  margin-top:1%;
+}
+
+.samplingdropdesc{
+  background-color: var(--indigo-100);
+  color:black;
+  width:max-content;
+  margin-left:20%; 
+  margin-bottom: 1%;
+ 
+}
+
+.mavgdesc{
+  margin-top:2%; 
+  background-color: var(--orange-100);
+
+}
+
+.copyright{
+  margin-top:2%; 
+  background-color: var(--red-100);
+}

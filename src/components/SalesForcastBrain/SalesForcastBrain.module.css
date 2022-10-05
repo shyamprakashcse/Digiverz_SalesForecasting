@@ -1,0 +1,46 @@
+.model{
+    font-family: 'Times New Roman', Times, serif;
+}
+.modelnav{
+    background-color: aquamarine; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modelnavhead{
+    width: fit-content;
+    background-color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.inputfeeder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.slogan{
+    text-align: center;
+    background-color: aquamarine; 
+    margin-bottom: 2%;
+}
+
+.forecast img{
+  
+  border:1px solid black; 
+  width:800px; 
+  margin-left: 25%;
+  
+  overflow: scroll;
+}
+
+.copyright{
+    margin-top:2%; 
+    background-color: var(--red-100);
+}

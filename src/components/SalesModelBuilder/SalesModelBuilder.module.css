@@ -1,0 +1,61 @@
+.smmodel{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.smdiv{
+  margin-bottom: 2%;
+  background-color: aquamarine; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.smdivhead{
+    margin: 1%;
+}
+
+.smdiv button{
+    margin:1%; 
+}
+
+.ARIMAhead{
+    background-color: var(--red-100);
+}
+
+.dropper{
+    margin:1%;
+    font-weight: bold;
+}
+
+.ARIMAReport{
+    margin-top: 2%;
+}
+
+.arimasum{
+    font-weight: bold;
+    background-color: var(--yellow-100);
+    
+}
+
+.ARIMAresiddiv{
+   margin-top: 2%;
+   /* background-color: aquamarine; */
+}
+.arimaresid{
+    background-color: var(--yellow-100);
+    font-weight: bold;
+}
+
+.ARIMAresiddiv img{
+    width:500px; 
+    height:500px;
+    margin-left: 25%;
+    margin-top: 2%; 
+}
+
+.copyright{
+    margin-top:2%; 
+    background-color: var(--red-100);
+    
+  }
